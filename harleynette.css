@@ -1,0 +1,266 @@
+
+/* header */
+header {
+    width: 100%;
+    background-color: gray;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid black 5px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+
+/* nav */
+nav {
+    margin: 1rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: gray;
+    border: solid black 5px;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+li > a:hover {
+    color: lightgray;
+}
+
+}
+
+nav ul li a {
+    padding: 5px;
+}
+
+/* global */
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+}
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:lightgray;
+}
+
+/* main */
+section {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.box1 {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.box2 {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+
+.box3 {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+
+
+.box4 {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+
+aside {
+    background-color: gray;
+    border: solid black 5px;
+    width: 90%;
+    margin: 1rem;
+    text-align: center;
+}
+/* footer */
+footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    background-color: gray;
+    border-top: solid black 5px;
+   
+}
+
+
+section article img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 768px) {
+    section {
+        width: 97%;
+    }
+    
+    .box1 {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    height: 460px;
+}
+
+    
+    .box2 {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    height: 460px;
+}
+
+    
+    .box3 {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    height: 460px;
+}
+
+    
+    .box4 {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    height: 460px;
+}
+    .box5 {
+        width: 45%;
+        float: left;
+        height: 200px;
+    }
+    
+    .box6 {
+        width: 45%;
+        float: right;
+        height: 200px;
+    }
+        .box7 {
+        width: 45%;
+        float: left;
+        height: 300px;
+    }
+
+    aside {
+    float: right;
+    width: 45%;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+        
+    .box1 {
+    width: 97%;
+    display: inline-block;
+    height: auto;
+}
+
+    
+    .box2 {
+    width: 45%;
+    display: inline-block;
+    float: left;
+    height: 350px;
+}
+
+    
+    .box3 {
+    width: 45%;
+    display: inline-block;
+    float: right;
+    height: 350px;
+}
+
+    
+    .box4 {
+    width: 97%;
+    display: inline-block;
+    height: auto;
+}
+       .box7 {
+    width: 45%;
+    float: right;
+    height: 300px;
+        
+}
+
+    aside {
+    float: left;
+    width: 45%;
+    height: 300px;
+}
+    
+}
+
+
+
+/*
+
+    ___                                .'-----\\ _
+    \  \                              //      #``.) __
+     \  \_________                     __--~~--_-\\/ |)
+      \           ~~-              _-~~         -_``.|)
+|\_.--~~~~~~~~~~-._  \________   _~   Harley-   |   \\
+|/   (} _..._/=/   \          ~\~      Davidson |    ``.--~~~~~--__
+/___-~~~    /=/~-_  ~~~--------~~--------------/    .-~\\ _________~
+  *     ---/=/    \  \       /{}===_____===_  ||   /  __``.    / \   *
+      / __/=/_\____\__\     /[]###/===  \###\ ||  /__/    \\ /
+ |   | [ |*|___________~~~~~==/ ##\_____/## \ \|  |  |------*------|  |
+      \ ~~___________________/ /_##+++++##*  | |           / \
+  *     ---\_)________________/___________\_/ /    *   \ /     \ /   *
+    *           *     \_)____________________/       *    ~~~~~    *
+       -------                                           -------
+
+*/
