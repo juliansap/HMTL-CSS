@@ -1,0 +1,41 @@
+
+.beweeg{
+  animation: mymove 5s infinite;
+  position: relative;
+}
+.racecar {
+  width: 100px;
+  height: 50px;
+  background-color: ;
+  font-weight: bold;
+  position: relative;
+}
+.racecar img {
+  width: 470px;
+  height: 200px;
+}
+.wiel img{
+  width: 60px;
+  height: 60px;
+  margin-left: 80px;
+  margin-top: 50px;
+  animation: draai 5s infinite;
+}
+#wiel2{
+  width: 60px;
+  height: 60px;
+  margin-left: 208px;
+  margin-top: 50px;
+
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 90%;}
+  animation-timing-function: ease;
+}
+
+@keyframes draai {
+  from {transform: rotate(0deg);}
+          to {transform: rotate(2380deg);}
+
+}
