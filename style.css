@@ -1,0 +1,444 @@
+body {
+  width: 1000px;
+  height: 1000px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows:repeat(8, 12.5%);
+}
+
+html {
+  margin: 0;
+}
+
+/* alle roden blokken */
+.rood {
+  background-color: red;
+  grid-column: 8;
+  grid-row: 8;
+  border: 2px solid black;
+}
+.rood1 {
+  background-color: red;
+  grid-column: 7;
+  grid-row: 8;
+    border: 2px solid black;
+}
+
+.rood2 {
+  background-color: red;
+  grid-column: 4;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.rood3 {
+  background-color: red;
+  grid-column: 6;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.rood4 {
+  background-color: red;
+  grid-column: 7;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.rood5 {
+  background-color: red;
+  grid-column: 4;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.rood6 {
+  background-color: red;
+  grid-column: 5;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.rood7 {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.rood8 {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.rood9 {
+  background-color: red;
+  grid-column: 5;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.rood10 {
+  background-color: red;
+  grid-column: 6;
+  grid-row: 2;
+    border: 2px solid black;
+}
+
+.rood11 {
+  background-color: red;
+  grid-column: 5;
+  grid-row: 2;
+    border: 2px solid black;
+}
+
+.rood12 {
+  background-color: red;
+  grid-column: 5;
+  grid-row: 1;
+    border: 2px solid black;
+}
+
+.rood13 {
+  background-color: red;
+  grid-column: 4;
+  grid-row: 1;
+    border: 2px solid black;
+}
+
+.rood14 {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 4;
+    border: 2px solid black;
+}
+
+.rood15 {
+  background-color: red;
+  grid-column: 2;
+  grid-row: 4;
+    border: 2px solid black;
+}
+
+.rood16 {
+  background-color: red;
+  grid-column: 2;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+/* alle oranje blokken */
+.oranje {
+  background-color: orange;
+  grid-column: 6;
+  grid-row: 8;
+    border: 2px solid black;
+}
+.oranje1 {
+  background-color: orange;
+  grid-column: 5;
+  grid-row: 8;
+    border: 2px solid black;
+}
+
+.oranje2 {
+  background-color: orange;
+  grid-column: 4;
+  grid-row: 8;
+    border: 2px solid black;
+}
+
+.oranje3 {
+  background-color: orange;
+  grid-column: 5;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.oranje4 {
+  background-color: orange;
+  grid-column: 3;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.oranje5 {
+  background-color: orange;
+  grid-column: 2;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.oranje6 {
+  background-color: orange;
+  grid-column: 3;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.oranje7 {
+  background-color: orange;
+  grid-column: 4;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.oranje8 {
+    background-color: orange;
+    grid-column: 8;
+    grid-row: 3;
+      border: 2px solid black;
+  }
+
+  .oranje9 {
+      background-color: orange;
+      grid-column: 8;
+      grid-row: 2;
+        border: 2px solid black;
+    }
+
+    .oranje10 {
+        background-color: orange;
+        grid-column: 8;
+        grid-row: 1;
+          border: 2px solid black;
+      }
+
+      .oranje11 {
+        background-color: orange;
+        grid-column: 7;
+        grid-row: 2;
+          border: 2px solid black;
+      }
+
+      .oranje12 {
+        background-color: orange;
+        grid-column: 2;
+        grid-row: 2;
+          border: 2px solid black;
+      }
+
+      .oranje13 {
+        background-color: orange;
+        grid-column: 1;
+        grid-row: 3;
+          border: 2px solid black;
+      }
+
+      .oranje14 {
+        background-color: orange;
+        grid-column: 1;
+        grid-row: 2;
+          border: 2px solid black;
+      }
+
+      .oranje15{
+        background-color: orange;
+        grid-column: 1;
+        grid-row: 1;
+          border: 2px solid black;
+      }
+
+/* alle blauwe blokken */
+.blauw {
+  background-color: blue;
+  grid-column: 3;
+  grid-row: 8;
+    border: 2px solid black;
+}
+.blauw1 {
+  background-color: blue;
+  grid-column: 2;
+  grid-row: 8;
+    border: 2px solid black;
+}
+
+
+.blauw2 {
+  background-color: blue;
+  grid-column: 3;
+  grid-row: 7;
+    border: 2px solid black;
+}
+.blauw3 {
+  background-color: blue;
+  grid-column: 2;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.blauw4 {
+  background-color: blue;
+  grid-column: 6;
+  grid-row: 6;
+    border: 2px solid black;
+}
+.blauw5 {
+  background-color: blue;
+  grid-column: 7;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.blauw6 {
+  background-color: blue;
+  grid-column: 7;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.blauw7 {
+  background-color: blue;
+  grid-column: 6;
+  grid-row: 5;
+    border: 2px solid black;
+}
+
+.blauw8 {
+  background-color: blue;
+  grid-column: 4;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+.blauw9 {
+  background-color: blue;
+  grid-column: 3;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+.blauw10 {
+  background-color: blue;
+  grid-column: 4;
+  grid-row: 2;
+    border: 2px solid black;
+}
+
+.blauw11 {
+  background-color: blue;
+  grid-column: 3;
+  grid-row: 2;
+    border: 2px solid black;
+}
+
+
+
+
+/* alle groenen blokken */
+.groen {
+  background-color: green;
+  grid-column: 1;
+  grid-row: 8;
+    border: 2px solid black;
+}
+
+.groen1 {
+  background-color: green;
+  grid-column: 1;
+  grid-row: 7;
+    border: 2px solid black;
+}
+
+.groen2 {
+  background-color: green;
+  grid-column: 1;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.groen3 {
+  background-color: green;
+  grid-column: 2;
+  grid-row: 6;
+    border: 2px solid black;
+}
+
+.groen4 {
+  background-color: green;
+  grid-column: 7;
+  grid-row: 4;
+    border: 2px solid black;
+}
+
+.groen5 {
+  background-color: green;
+  grid-column: 7;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+.groen6 {
+  background-color: green;
+  grid-column: 6;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+.groen7 {
+  background-color: green;
+  grid-column: 5;
+  grid-row: 3;
+    border: 2px solid black;
+}
+
+
+/* alle gelle blokken*/
+.geel {
+    background-color: yellow;
+    grid-column: 8;
+    grid-row: 7;
+      border: 2px solid black;
+  }
+
+  .geel1 {
+      background-color: yellow;
+      grid-column: 8;
+      grid-row: 6;
+        border: 2px solid black;
+    }
+
+    .geel2 {
+        background-color: yellow;
+        grid-column: 8;
+        grid-row: 5;
+          border: 2px solid black;
+      }
+
+      .geel3 {
+          background-color: yellow;
+          grid-column: 8;
+          grid-row: 4;
+            border: 2px solid black;
+        }
+
+        .geel4 {
+          background-color: yellow;
+          grid-column: 6;
+          grid-row: 4;
+            border: 2px solid black;
+        }
+
+        .geel5 {
+          background-color: yellow;
+          grid-column: 5;
+          grid-row: 4;
+            border: 2px solid black;
+        }
+
+        .geel6 {
+          background-color: yellow;
+          grid-column: 4;
+          grid-row: 4;
+            border: 2px solid black;
+        }
+
+        .geel7 {
+          background-color: yellow;
+          grid-column: 3;
+          grid-row: 4;
+            border: 2px solid black;
+        }
